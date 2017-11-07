@@ -1,0 +1,161 @@
+! author: arpinux <http://arpinux.org>
+! ~/.Xresources configuration file
+!-----------------------------------------------------------------------
+
+! arp_colors
+! link
+*colorUL: #507F24
+! black
+*color0:  #3D4041
+*color8:  #545653
+! red
+*color1:  #9D2121
+*color9:  #B33A3A
+! green
+*color2:  #507F24
+*color10: #75AB40
+! yellow
+*color3:  #998221
+*color11: #BAAF51
+! blue
+*color4:  #005885
+*color12: #66819F
+! purple
+*color5:  #68526C
+*color13: #8A6E87
+! cyan
+*color6:  #247D7F
+*color14: #40ABAB
+! white
+*color7:  #A2A49F
+*color15: #B2B2B0
+
+*background: #000000
+*foreground: #BFBFBF
+
+! Xft settings ---------------------------------------------------------
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.antialias: 1
+Xft.rgba: rgb
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+
+! xterm ----------------------------------------------------------------
+!xterm*VT100.geometry: 180x60-10+10
+!xterm*saveLines: 6000
+!xterm*AllowIconInput: on
+!xterm*background: #222222
+!xterm*foreground: #BFBFBF
+!xterm*cursorColor: DeepSkyBlue4
+!xterm*border: #BFBFBF
+!xterm*faceName: xft:Droid Sans Mono:pixelsize=12
+!xterm*InternalBorder: 1
+!xterm*MarginBell: off
+!xterm*MenuFont: fixed8
+!xterm*Mouse: yellow
+!xterm*TitleFont: vtbold
+!xterm*charClass: 33:48,37:48,45-47:48,64:48
+!xterm*colorAttrMode: true
+!xterm*colorMode: true
+!xterm*colorUL: green
+!xterm*curses: on
+!xterm*cutNewline: off
+!xterm*jumpScroll: on
+!xterm*multiClickTime: 500
+!xterm*multiScroll: on
+!xterm*reverseWrap: off
+!xterm*scrollBar: off
+!XTerm*reverseVideo: off
+!!xterm*font: -*-lime-medium-*-*-*-10-*-*-*-*-*-*-*
+!xterm*Font: -*-terminus-medium-*-*-*-20-*-*-*-*-*-*-*
+XTerm.font: xft:Source Code Pro:size=10
+!!XTerm.boldFont: xft:DejaVu Sans Mono:size=10
+
+! xscreensaver ---------------------------------------------------------
+!font settings
+xscreensaver.Dialog.headingFont:        -*-Modd-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-Modd-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-Modd-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-Modd-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-Modd-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-Modd-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-Modd-bold-r-*-*-10-*-*-*-*-*-*-*
+!!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #000000
+xscreensaver.Dialog.background:         #525252
+xscreensaver.Dialog.topShadowColor:     #333333
+xscreensaver.Dialog.bottomShadowColor:  #333333
+xscreensaver.Dialog.Button.foreground:  #000000
+xscreensaver.Dialog.Button.background:  #525252
+!!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #000000
+xscreensaver.Dialog.text.background:    #525252
+xscreensaver.Dialog.internalBorderWidth:0
+xscreensaver.Dialog.borderWidth:        0
+xscreensaver.Dialog.shadowThickness:    1
+!!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #005885
+xscreensaver.passwd.thermometer.background:  #222222
+xscreensaver.passwd.thermometer.width:       8
+!!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:%A, %B %d
+
+! urxvt config ---------------------------------------------------------
+URxvt.termName: rxvt-unicode
+URxvt.imLocale: fr_FR.UTF-8
+URxvt.cursorBlink: true
+!!URxvt.foreground: #BFBFBF
+!!URxvt.background: #222222
+!URxvt.cursorColor: #e0e080
+!URxvt.throughColor: #8080f0
+!URxvt.highlightColor: #333333
+!URxvt.fadecolor: #222222
+!URxvt.fading: 40
+!URxvt.shading: 40
+!URxvt.transparent: true
+!!URxvt.tintColor: #BFBFBF
+!URxvt.visualBell: false
+!URxvt.urgentOnBell: true
+!URxvt.font: -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+URxvt.urlLauncher: elinks
+URxvt.matcher.button: 1
+URxvt.perl-ext-common: default,resize-font,url-select
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+!URxvt.perl-ext-common: default,tabbed,matcher !uncomment = autotabs in URxvt
+!URxvt.tabbed.tabbar-fg: 4
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 7
+!URxvt.tabbed.tab-bg: 4
+! URxvt --------------------------------------------------------
+! par moi
+Urxvt.geometry: 120x40
+URxvt.font: xft:Source Code Pro:size=10
+URxvt.boldFont: xft:Source Code Pro:size=10
+URxvt*saveLines: 10000
+URxvt*scrollBar: false
+!URxvt*scrollBar_right: true
+!URxvt*scrollColor: #c2dd5a
+!URxvt*scrollBar_floating: true
+!URxvt*scrollstyle: plain
+!URxvt*foreground: #f2f2f2
+!URxvt*background: #101010
+URxvt.keysym.S-Up: \033[1;2A
+URxvt.keysym.S-Down: \033[1;2B
+URxvt.keysym.S-Right: \033[1;2C
+URxvt.keysym.S-Left: \033[1;2D
+URxvt.keysym.S-Home: \033[1;2H
+URxvt.keysym.S-End: \033[1;2F
+URxvt.keysym.C-Up: \033[1;5A
+URxvt.keysym.C-Down: \033[1;5B
+URxvt.keysym.C-Right: \033[1;5C
+URxvt.keysym.C-Left: \033[1;5D
+URxvt.keysym.C-S-Up: \033[1;6A
+URxvt.keysym.C-S-Down: \033[1;6B
+URxvt.keysym.C-S-Right: \033[1;6C
+URXvt.keysym.C-S-Left: \033[1;6D
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
