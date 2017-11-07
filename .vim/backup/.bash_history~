@@ -1,0 +1,178 @@
+nmcli
+man xfp
+groups
+yaourt -a locate
+pacman -Ss yaourt
+web
+alirc 
+www
+alirc 
+sudo VBoxClient-all 
+echo $EDITOR 
+sudoedit /etc/pacman.conf 
+sudo pacman -Syu
+sudo pacman -Syu yaourt
+www
+sudo -i
+www
+groups
+reboot
+sudo VBoxClient-all 
+VBoxClient-all 
+yaourt updatedb
+sudo updatedb
+locate xinitrc
+cat /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+less /etc/X11/xinit/xinitrc
+cat .xinitrc
+cp /etc/X11/xinit/xinitrc .xinitrc
+vim .xinitrc 
+systemctl | grep lxdm
+sudo systemctl disable lxdm.service 
+yaourt etckeeper
+vimrc 
+vim .bash_profile 
+man etckeeper
+startx
+vim .xinitrc 
+vim .bash_profile 
+reboot
+alf .local/
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+. .bashrc 
+less .bashrc
+git clone https://github.com/nojhan/liquidprompt.gi
+git clone https://github.com/nojhan/liquidprompt.git
+source liquidprompt/liquidprompt
+cp ~/liquidprompt/liquidpromptrc-dist ~/.config/liquidpromptrc
+source liquidprompt/liquidprompt
+grep "PROMPT_COMMAND" .bashrc 
+bashrc 
+grep konsoleprofile .
+grep -r konsoleprofile .
+vimrc 
+vim
+vimrc 
+bashrc 
+cd .vim/plugged/tagbar/plugin/
+vim .config/liquidpromptrc 
+cd .vim/plugged/tagbar/plugin/
+cd /etc/i3/
+ls config
+cat config
+less config
+less config.keycodes 
+www
+elinks https://i3wm.org/docs/refcard.html
+ranger 
+sudo updatedb && locate rangerc
+locate rc.conf | grep ranger
+less /usr/share/doc/ranger/config/rc.conf
+cp /usr/share/doc/ranger/config/rc.conf /home/manu/.config/ranger
+elinks https://github.com/ranger/ranger/wiki/Image-Previews
+bashrc 
+yaourt -a vim
+yaourt -a w3m
+ranger
+ranger --copy-config=scope
+ranger
+w3m --help
+yaourt -Rcn w3m
+yaourt -a urxvt
+yaourt -a rxvt-unicode-pixbuf
+ranger 
+yaourt -a w3m
+ranger
+yaourt -Rcn termite-ranger-fix-git
+yaourt -Qdt -q | xargs yaourt -R
+alirc 
+man urxvt
+which i3-sensible-terminal 
+file /usr/bin/i3-sensible-terminal
+less /usr/bin/i3-sensible-terminal
+find . conf
+locate .git | grep -v home
+man etckeeper
+vim .
+sudo systemctl enable etckeeper.timer
+less /etc/etckeeper/etckeeper.conf
+locate .etckeeper
+sudo updatedb && locate .etckeeper
+etckeeper --help
+etckeeper init 
+sudo etckeeper init 
+vimrc 
+vim
+vimrc 
+vim
+vimrc 
+sudo etckeeper commit "˝... Motif du changement de configuration ..."
+sudo -i
+man etckeeper
+startx
+systemctl shutdown
+systemctl halt
+nmcli
+ssh-keygen -t rsa
+$cat ~/.ssh/id_rsa.pub | ssh git@serveurgit "mkdir ~/.ssh; cat $$ ~/.ssh/authorized_keys"
+$cat ~/.ssh/id_rsa.pub | ssh git@192.168.1.94 "mkdir ~/.ssh; cat $$ ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh git@192.168.1.94 "mkdir ~/.ssh; cat $$ ~/.ssh/authorized_keys"
+ssh-copy-id git@192.168.1.94
+ssh git@192.168.1.94 
+man plkit
+man polkit
+vim .config/i3/config 
+startx
+vim .config/i3/config 
+startx
+sudo updatedb
+man urxvt
+vim .config/i3/config 
+man 7 urxvt
+vim .Xresources 
+set $Locker i3lock && sleep 1
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+}
+bindsym $mod+Pause mode "$mode_system"
+vim .Xresources 
+VBoxClient-all 
+www
+VBoxClient-all 
+xmodmap -pke
+xev
+u users    41  3 nov.  01:22 .lesshst
+drwxr-xr-x  5 manu users  4096  3 nov.  00:46 liquidprompt/
+drwxr-xr-x  3 manu users  4096  2 nov.  23:26 .local/
+drwxr-xr-x  2 manu users  4096  2 nov.  23:25 Modèles/
+drwx------  4 manu users  4096  2 nov.  23:26 .mozilla/
+drwxr-xr-x  2 manu users  4096  2 nov.  23:25 Musique/
+ls /home/
+vim .
+vimrc 
+sudo -i
+bashrc 
+vim .config/i3/config 
+startx
+bashrc 
+bashrc 
+vimrc 
+vimrc 
+vim .Xresources 
+vim .config/i3/config 
+vim .Xresources 
+yaourt -a terminus
+yaourt -a dejavu
+yaourt -a droid
+yaourt -a droid | grep font
+yaourt -a droid sans
+yaourt -a terminus
+vim .Xresources 
+xterm 
+vim .Xresources 
+grep -Ri "adobe-helvetica-bold-r-normal" .
+grep -Ri "adobe-helvetica-bold-r-normal" /etc
+grep -Ri "adobe-helvetica-bold-r-normal" .config/
+sudo grep -Ri "adobe-helvetica-bold-r-normal" /etc
+mkdir test

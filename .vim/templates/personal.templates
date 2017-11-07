@@ -1,0 +1,20 @@
+§ =============================================================
+§  Personal Information
+§ =============================================================
+
+SetMacro( 'AUTHOR',       'AlfonseX' )
+SetMacro( 'AUTHORREF',    '' )
+SetMacro( 'EMAIL',        'alfonsex@gmx.com' )
+SetMacro( 'ORGANIZATION', 'GNPK.org' )
+SetMacro( 'COMPANY',      'The Grand Nimporte Koi Company' )
+SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR|, |AUTHOR|' )
+SetMacro( 'LICENSE',      'WTFPL/Beerware' )
+
+§ =============================================================
+§  Date and Time Format
+§ =============================================================
+
+§SetFormat( 'DATE', '%x' )
+§SetFormat( 'TIME', '%H:%M' )
+§SetFormat( 'YEAR', '%Y' )
+

@@ -1,0 +1,73 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "user_off",
+    "geometry": {
+       "height": 730,
+       "width": 449,
+       "x": 454,
+       "y": 38
+    },
+    "name": "Boîte à outils - Options des outils",
+    "percent": 0.183333333333333,
+    "swallows": [
+       {
+       // "class": "^Gimp\\-2\\.8$",
+       // "instance": "^gimp\\-2\\.8$",
+       // "title": "^Boîte\\ à\\ outils\\ \\-\\ Options\\ des\\ outils$",
+       // "transient_for": "^$",
+       // "window_role": "^gimp\\-toolbox$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 748,
+       "width": 451,
+       "x": 0,
+       "y": 20
+    },
+    "name": "Éditeur d'image GIMP",
+    "percent": 0.633333333333333,
+    "swallows": [
+       {
+       // "class": "^Gimp\\-2\\.8$",
+       // "instance": "^gimp\\-2\\.8$",
+       // "title": "^Éditeur\\ d\\'image\\ GIMP$",
+       // "transient_for": "^$",
+       // "window_role": "^gimp\\-image\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "user_off",
+    "geometry": {
+       "height": 730,
+       "width": 451,
+       "x": 907,
+       "y": 38
+    },
+    "name": "Calques - Brosses",
+    "percent": 0.183333333333333,
+    "swallows": [
+       {
+       // "class": "^Gimp\\-2\\.8$",
+       // "instance": "^gimp\\-2\\.8$",
+       // "title": "^Calques\\ \\-\\ Brosses$",
+       // "transient_for": "^$",
+       // "window_role": "^gimp\\-dock$"
+       }
+    ],
+    "type": "con"
+}
+

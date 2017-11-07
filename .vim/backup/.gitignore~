@@ -1,0 +1,11 @@
+*
+!*/
+!/.config/i3/**
+!/.config/liquid.ps1
+!/.config/liquid.theme
+!/.config/liquidpromptrc
+!/.fonts/**
+!.bashrc
+!.bash_aliases
+!.xinitrc
+!.Xresources
